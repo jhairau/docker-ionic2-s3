@@ -6,3 +6,7 @@ RUN apk add --update --no-cache \
   python \
   py-pip \
   && pip install --upgrade --user awscli
+
+## Global Node Package Dependencies
+RUN npm install -g typescript typings
+
